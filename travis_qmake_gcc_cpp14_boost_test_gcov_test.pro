@@ -15,9 +15,6 @@ SOURCES += my_functions.cpp \
     my_functions_test.cpp
 
 # C++14
-QMAKE_CXX = g++-5
-QMAKE_LINK = g++-5
-QMAKE_CC = gcc-5
 QMAKE_CXXFLAGS += -std=c++14
 
 # Boost.Test
