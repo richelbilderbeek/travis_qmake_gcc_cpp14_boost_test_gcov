@@ -19,7 +19,7 @@ script:
   - make --silent debug
   - ./travis_qmake_gcc_cpp14_boost_test_gcov
   # Test
-  - ./clean.sh
+  - make clean
   - qmake travis_qmake_gcc_cpp14_boost_test_gcov_test.pro
   - make --silent
   - ./travis_qmake_gcc_cpp14_boost_test_gcov_test
